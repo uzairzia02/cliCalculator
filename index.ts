@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import Choices from "inquirer/lib/objects/choices.js";
 
@@ -18,5 +20,4 @@ if (answer.operator === "Addition") {
 } else if (answer.operator === "Division") {
     console.log(answer.firstnumber / answer.secondnumber)   
 } else console.log("Please select valid Operator !")
-
 

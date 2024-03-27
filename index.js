@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let answer = await inquirer.prompt([
     { message: "Enter first number: ", type: "number", name: "firstnumber" },
